@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+    display:flexbox;
+}
+
+.menu {
+    padding: 20px;
+}
+.logo_youtube {
+    padding: 20px;
+}
+.barra_pesquisa {
+    padding: 20px;
+}
+.icon_live {
+    margin: 2px;
+}
+.icon_sino {
+    margin: 2px;
+}
+.icon_profile {
+    width: 34px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 2px;
+}
+.icon_live, .icon_sino, .icon_profile {
+    
+}
