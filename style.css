@@ -2,38 +2,74 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    
 }
 body {
   font-family: 'Roboto', sans-serif;
-}
-header {
-    display:flexbox;
-}
+  box-sizing: border-box;
+  position: static;
 
-.menu {
+}
+.header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+}
+.profile {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.menu {
+    padding: 5px;
 }
 .logo_youtube {
-    padding: 20px;
+   padding: 5px;
 }
-.barra_pesquisa {
-    padding: 20px;
-}
-.icon_live {
-    margin: 2px;
+.icon_video {
+    padding: 5px;
 }
 .icon_sino {
-    margin: 2px;
+    padding: 5px;
 }
-.icon_profile {
-    width: 34px;
-    height: 34px;
-    border: 1px solid black;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 2px;
+.profile {
+    padding: 5px;
 }
-.icon_live, .icon_sino, .icon_profile {
-    
+.container {
+        
+}
+.menu-lateral {
+    padding: 30px;
+    position: absolute;
+    right: 200px;
+}
+.box {
+    padding: 30px;
+}
+.video-principal {
+    width: 1200px;
+    height: 674px;
+    border-radius: 20px;
+}
+h2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 70px;
+}
+.barra_de_inscricao {
+    position: absolute;
+    bottom: 17px;
+}
+.visualizacao {
+    position: absolute;
+    bottom: -20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.texto-descricao {
+    position: absolute;
+    bottom: -70px;
+    max-width: 200px;
+    overflow-wrap: break-word;
 }
