@@ -2,18 +2,16 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  position: static;
-
 }
 .header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    width: 100%;
 }
 .profile {
     width: 30px;
@@ -36,16 +34,25 @@ body {
 .profile {
     padding: 5px;
 }
-.container {
-        
-}
+
 .menu-lateral {
-    padding: 30px;
-    position: absolute;
-    right: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    top: 40px;
+    right: 80px;
+}
+div nav ul li .Sidebar {
+    right: -20px;
+}
+.menu-lateral img {
+    position: relative;
 }
 .box {
-    padding: 30px;
+    padding: 40px;
+    position: relative;
+    top: -250px;
 }
 .video-principal {
     width: 1200px;
@@ -54,22 +61,29 @@ body {
 }
 h2 {
     font-size: 25px;
-    position: absolute;
-    bottom: 70px;
+    position: relative;
+    bottom: -20px;
 }
 .barra_de_inscricao {
-    position: absolute;
-    bottom: 17px;
+    position: relative;
+    bottom: -30px;
 }
 .visualizacao {
-    position: absolute;
-    bottom: -20px;
+    position: relative;
+    bottom: -50px;
     font-weight: 600;
     font-size: 16px;
 }
-.texto-descricao {
-    position: absolute;
-    bottom: -70px;
-    max-width: 200px;
-    overflow-wrap: break-word;
+.container-descrição {
+    position: relative;
+    bottom: -60px;
+    width: 1000px;
+    height: 20px;
 }
+.texto-descrição {
+    word-break: keep-all;
+}
+div nav ul li .Sidebar {
+    right: 75px;
+}
+
